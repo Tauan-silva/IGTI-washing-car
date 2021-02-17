@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tauan.igticarwashing">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.IGTICarWashing">
+        <activity android:name=".presentation.layout.ServicoActivity"></activity>
+        <activity
+            android:name=".presentation.layout.ListaClienteActivity"
+            android:theme="@style/Theme.IGTICarWashingNoActionBar" />
+        <activity android:name=".presentation.layout.AgendaActivity" />
+        <activity android:name=".presentation.layout.CadastroClienteActivity" />
+        <activity
+            android:name=".presentation.layout.SplashActivity"
+            android:theme="@style/Theme.IGTICarWashingNoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".presentation.layout.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

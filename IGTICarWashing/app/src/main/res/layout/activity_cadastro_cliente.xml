@@ -44,6 +44,7 @@
         android:layout_height="wrap_content"
         android:padding="16dp"
         android:hint="@string/placa"
+        android:inputType="textCapCharacters"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view3" />
@@ -59,7 +60,7 @@
         app:layout_constraintTop_toBottomOf="@+id/editPlaca" />
 
     <RadioGroup
-        android:id="@+id/radioGroup"
+        android:id="@+id/radioGroupVeiculos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -67,24 +68,27 @@
         app:layout_constraintTop_toBottomOf="@+id/view4">
 
         <RadioButton
+            android:id="@+id/radioBtnMoto"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Moto" />
 
         <RadioButton
+            android:id="@+id/radioBtnCarro"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Carro" />
     </RadioGroup>
 
     <Button
-        android:id="@+id/btnSalvar"
+        android:id="@+id/btnSalvarCadastro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/btnSalvar"
+        android:padding="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+        app:layout_constraintTop_toBottomOf="@+id/radioGroupVeiculos" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

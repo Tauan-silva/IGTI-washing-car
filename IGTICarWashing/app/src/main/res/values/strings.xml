@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">IGTI CarWashing</string>
+
+    <string name="btnCadastro">Cadastrar Cliente</string>
+    <string name="btnAgendarServico">Agendar Serviço</string>
+    <string name="btnAgenda">Agenda</string>
+    <string name="btnListaDeClientes">Lista de clientes</string>
+    <string name="nomeCliente">Nome</string>
+    <string name="placa">Placa</string>
+    <string name="btnSalvar">Salvar</string>
+    <string name="servico_lavagem_seco">Lavagem a seco</string>
+    <string name="servico_lavagem_completa">Lavagem completa</string>
+    <string name="servico_lavagem_bancos">Lavagem de bancos</string>
+
+</resources>
